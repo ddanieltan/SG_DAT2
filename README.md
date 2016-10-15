@@ -1,7 +1,7 @@
 # SG_DAT2
 **General Assembly** Singapore DAT2 Course Material
-
 **Instructor:** [/u/misrab](www.github.com/misrab)
+
 =======
 Altering readme, testing.
 
