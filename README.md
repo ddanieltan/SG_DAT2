@@ -1,5 +1,5 @@
 # SG_DAT2
-**General Assembly** Singapore DAT2 Course Material
+**General Assembly** Singapore DAT2 Course Material\n
 **Instructor:** [/u/misrab](www.github.com/misrab)
 
 =======
