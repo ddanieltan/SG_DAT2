@@ -102,6 +102,10 @@ for num in nums:            # loop through nums (will execute 5 times)
 doubled = [num*2 for num in nums]   # expression (num*2) goes first, brackets
                                     # indicate we are storing results in a list
 
+doubled = [num*2 for num in nums if num > 5] #can even add in conditions with if 
+
+tups = [(3,4,5),(4,7,8)]
+real = [(x,y,z) for (x,y,z) in tups if x^2 + y^2 = z^2]
 
 '''
 EXERCISE 1:
