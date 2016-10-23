@@ -7,7 +7,7 @@
 Altering readme, testing.
 
 |Week|Description|Speaker|
-|----|------------------------------------------------------------------------------|--------------|
+|----|-----------------------------------------------------------------|--------------|
 |1|Introduction, Command Line, Git|-
 |2|Linear Algebra, Probability and Statistics, Basic Python|-
 |3|Pandas Visualisation, Linear Regression, K-Nearest Neighbors|Nick Jachowski
