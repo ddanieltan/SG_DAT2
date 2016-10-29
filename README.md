@@ -4,8 +4,6 @@
 **Instructor:** [/u/misrab](www.github.com/misrab)
 
 =======
-Altering readme, testing.
-
 |Week|Description|Speaker|
 |----|-----------------------------------------------------------------|--------------|
 |1|Introduction, Command Line, Git|-
