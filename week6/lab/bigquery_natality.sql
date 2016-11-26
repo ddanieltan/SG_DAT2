@@ -34,7 +34,7 @@ Gestation Period by State
 Do gestation periods vary by state (​ year > 1990 and year < 2005) ​ ?
 Hint: ​ IS_EXPLICITLY_DEFINED to remove null
 */
-select mother_birth_state, year, AVG(gestation_weeks) AS Avg_Gestation
+select mother_birth_state, AVG(gestation_weeks) AS Avg_Gestation
 FROM [bigquery-public-data:samples.natality]
 WHERE year > 1990 AND year < 2005
-GROUP BY mother_birth_state, year LIMIT 1000
+GROUP BY mother_birth_state LIMIT 1000
