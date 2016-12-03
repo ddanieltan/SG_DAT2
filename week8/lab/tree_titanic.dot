@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Sex <= 0.5\nmse = 0.2365\nsamples = 891\nvalue = 0.3838"] ;
+1 [label="Pclass <= 2.5\nmse = 0.1914\nsamples = 314\nvalue = 0.742"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Age <= 2.5\nmse = 0.0501\nsamples = 170\nvalue = 0.9471"] ;
+1 -> 2 ;
+3 [label="mse = 0.25\nsamples = 2\nvalue = 0.5"] ;
+2 -> 3 ;
+4 [label="mse = 0.0454\nsamples = 168\nvalue = 0.9524"] ;
+2 -> 4 ;
+5 [label="Embarked_S <= 0.5\nmse = 0.25\nsamples = 144\nvalue = 0.5"] ;
+1 -> 5 ;
+6 [label="mse = 0.2114\nsamples = 56\nvalue = 0.6964"] ;
+5 -> 6 ;
+7 [label="mse = 0.2344\nsamples = 88\nvalue = 0.375"] ;
+5 -> 7 ;
+8 [label="Age <= 6.5\nmse = 0.1532\nsamples = 577\nvalue = 0.1889"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Pclass <= 2.5\nmse = 0.2222\nsamples = 24\nvalue = 0.6667"] ;
+8 -> 9 ;
+10 [label="mse = 0.0\nsamples = 10\nvalue = 1.0"] ;
+9 -> 10 ;
+11 [label="mse = 0.2449\nsamples = 14\nvalue = 0.4286"] ;
+9 -> 11 ;
+12 [label="Pclass <= 1.5\nmse = 0.1399\nsamples = 553\nvalue = 0.1682"] ;
+8 -> 12 ;
+13 [label="mse = 0.2299\nsamples = 120\nvalue = 0.3583"] ;
+12 -> 13 ;
+14 [label="mse = 0.1021\nsamples = 433\nvalue = 0.1155"] ;
+12 -> 14 ;
+}
