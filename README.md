@@ -4,6 +4,7 @@
 **Instructor:** [/u/misrab](www.github.com/misrab)
 
 =======
+
 |Week|Description|Speaker|
 |----|-----------------------------------------------------------------|--------------|
 |1|Introduction, Command Line, Git|-
